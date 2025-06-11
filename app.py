@@ -7,7 +7,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 # --- RDS Connection Config ---
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://admin:yourpassword@talenthunt.cfy8o2c0m6fz.ap-south-1.rds.amazonaws.com:3306/talenthunt'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://admin:mypassword@database-1.cfy8o2c0m6fz.ap-south-1.rds.amazonaws.com:3306/talenthunt'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
